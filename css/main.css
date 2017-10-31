@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 /*encabezado*/
 header{
@@ -80,4 +81,69 @@ li button{
   /*tamaño*/
   width: 600px;
   height: 400px;
+}
+
+/*segunda sección*/
+#second-block{
+  background: linear-gradient(#76278F, #2B1E66);
+  height: 500px;
+  color: white;
+}
+/*contenedor del texto*/
+#second-block .container{
+  outline:1px solid red;
+  width: 30%;
+  /*espaciado a la izquierda*/
+  margin-left: 150px;
+  /*relleno en la parte superior*/
+  padding-top: 50px;
+}
+
+/*bloques del texto*/
+#second-block .container .box{
+  /*espaciado entre cada bloque*/
+  margin-bottom: 50px;
+}
+/*Título de la segunda seccioó*/
+#second-block .box h1{
+  margin-bottom: 20px;
+}
+
+/*imagen de la segunda sección*/
+img[alt="phone"]{
+  /*outline: 1px solid red;*/
+  width: 30%;
+  position: relative;
+  left:60%;
+  bottom: 480px;
+}
+
+#third-block{
+  outline: 1px solid red;
+  height: 400px;
+
+}
+#third-block p{
+  outline: 1px solid red;
+  width: 30%;
+  margin-left: 30px;
+  padding-top:10px;
+}
+
+#third-block .first-video{
+  height: 400px;
+  width: 60%;
+  position: relative;
+  left: 40%;
+  bottom: 200px;
+
+}
+
+#fourth-block{
+  height: 330px;
+}
+
+#fifth-block{
+  height: 330px;
+
 }
