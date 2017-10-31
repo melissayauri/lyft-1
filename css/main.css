@@ -169,11 +169,20 @@ bottom: 90px;
   height: 400px;
 }
 
+#fifth-block .box1{
+  /*outline: 1px solid red;*/
+  width: 30%;
+  margin-left: 40px;
+  padding-top: 20px;
+
+}
+
 #fifth-block .third-video{
   height: 390px;
   width: 60%;
   position: relative;
   left: 40%;
+  bottom: 150px;
 }
 
 /*pie de pagina*/
