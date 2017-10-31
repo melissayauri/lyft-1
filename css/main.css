@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+
 }
 /*encabezado*/
 header{
@@ -117,17 +118,19 @@ img[alt="phone"]{
   left:60%;
   bottom: 480px;
 }
-
+/*seccion de videos*/
+/*tercera sección*/
 #third-block{
   outline: 1px solid red;
   height: 400px;
 
 }
-#third-block p{
+#third-block .box1{
   outline: 1px solid red;
   width: 30%;
-  margin-left: 30px;
-  padding-top:10px;
+  margin-left: 40px;
+  padding-top: 20px;
+
 }
 
 #third-block .first-video{
@@ -135,15 +138,40 @@ img[alt="phone"]{
   width: 60%;
   position: relative;
   left: 40%;
-  bottom: 200px;
+  bottom: 157px;
 
 }
 
+/*cuarta sección*/
 #fourth-block{
-  height: 330px;
+  height: 400px;
 }
 
-#fifth-block{
-  height: 330px;
+#fourth-block .box2{
+outline: 1px solid green;
+width: 30%;
 
+display: inline-block;
+position: relative;
+bottom: 90px;
+
+
+}
+
+#fourth-block .second-video{
+  height: 400px;
+  width: 60%;
+
+}
+/*quinta sección*/
+#fifth-block{
+  outline: 1px solid blue;
+  height: 400px;
+}
+
+#fifth-block .third-video{
+  height: 400px;
+  width: 60%;
+  position: relative;
+  left: 40%;
 }
