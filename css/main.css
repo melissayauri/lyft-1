@@ -4,9 +4,10 @@
 }
 /*encabezado*/
 header{
-  background-color: green;
+  outline:1px solid white;
+  /*background-color: green;*/
   width: 100%;
-  height: 100px;
+  height: 120px;
   position: fixed;
   top:0;
 }
@@ -38,8 +39,7 @@ a{
   /*outline: 1px solid purple;*/
   /*quitando el subrayado*/
   text-decoration: none;
-  /*ocupa el espacio de la etiqueta padre*/
-  /* display: block;*/
+  font-size: 18px;
   /*color de la letra*/
   color: #fff;
 }
@@ -56,4 +56,28 @@ li button{
   background-color: #FF00BF;
   text-align: center;
   margin-bottom: 20px;
+}
+
+/*primera sección*/
+#first-block{
+  /*colocando imagen de fondo*/
+  background-image:url(../assets/images/hero.gif);
+  /*la imagen de fondo no se repite*/
+  background-repeat: no-repeat;
+  /*se aplica para que cubra toda la zona*/
+  background-size: cover;
+  /*alto*/
+  height:600px;
+  outline: 1px solid red;
+}
+/*formulario en la parte derecha*/
+#first-block .message{
+  /*posicionamiento a la derecha*/
+  position: absolute;
+  top:150px;
+  left: 57%;
+  background-color: white;
+  /*tamaño*/
+  width: 600px;
+  height: 400px;
 }
