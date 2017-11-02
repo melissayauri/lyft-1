@@ -83,6 +83,50 @@ li button{
   width: 600px;
   height: 400px;
 }
+/*titulo antes del formulario*/
+#first-block .message .title{
+  outline: 1px solid red;
+  width: 30%;
+  color: #352384;
+  /*espaciado en la parte izquierda y superior*/
+  margin-left: 50px;
+  margin-top: 50px;
+  /*espaciado en la parte inferior*/
+  margin-bottom: 10px;
+}
+/*formulario*/
+#first-block form{
+margin-left: 50px;
+outline: 1px solid green;
+}
+/*entrada phone number*/
+input[type="text"]{
+  width:300px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+/*boton become a driver*/
+#first-block form button{
+  padding: 15px;
+  background-color: #FF00BF;
+  color: white;
+  border-radius: 20px;
+}
+#first-block form div{
+  outline: 1px solid blue;
+  width: 30%;
+}
+
+#first-block .message .purple-text{
+  outline: 1px solid blue;
+
+  color:#352384;
+  text-decoration: underline;
+
+}
+
 
 /*segunda sección*/
 #second-block{
@@ -237,15 +281,11 @@ footer{
   font-size: 14px;
 }
 
-
-
 /*aplicando efecto para que cuando el cursor pase por cada item cambie de color*/
 .code:hover{
 color: #FF00BF;
 text-decoration: underline;
 }
-
-
 
 img[alt="image-png"]{
   width: 60%;
