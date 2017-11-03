@@ -85,7 +85,7 @@ li button{
 }
 /*titulo antes del formulario*/
 #first-block .message .title{
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   width: 30%;
   color: #352384;
   /*espaciado en la parte izquierda y superior*/
@@ -96,8 +96,8 @@ li button{
 }
 /*formulario*/
 #first-block form{
-margin-left: 50px;
-outline: 1px solid green;
+  margin-left: 50px;
+  /*outline: 1px solid green;*/
 }
 /*entrada phone number*/
 input[type="text"]{
@@ -114,19 +114,22 @@ input[type="text"]{
   color: white;
   border-radius: 20px;
 }
-#first-block form div{
-  outline: 1px solid blue;
-  width: 30%;
-}
+
 
 #first-block .message .purple-text{
-  outline: 1px solid blue;
-
+  /*outline: 1px solid blue;*/
   color:#352384;
   text-decoration: underline;
-
+  position: relative;
+  left: 150px;
+  bottom: 30px;
 }
 
+#first-block .message .last-text{
+  margin-left: 50px;
+  font-size: 9px;
+
+}
 
 /*segunda sección*/
 #second-block{
