@@ -7,18 +7,26 @@
 /*encabezado*/
 header{
   /*outline:1px solid white;*/
-  /*background-color: green;*/
+  background: linear-gradient(#76278F, #2B1E66);
   width: 100%;
   height: 120px;
   position: fixed;
   top:0;
+  z-index: 1000;
 }
 /*imagen lyft*/
 header img{
   width: 5%;
+  position: relative;
+  top:40px;
+  left: 30px;
+
 }
+
 /*lista desordenada*/
 ul{
+  /*outline: 1px solid red;*/
+
   /*quitar las viñetas*/
   list-style: none;
   /*quitar espacio de lado izquierdo*/
@@ -128,9 +136,11 @@ input[type="text"]{
 #first-block .message .last-text{
   margin-left: 50px;
   font-size: 9px;
-
 }
 
+#first-block .message .last-text p{
+  margin-bottom: 10px;
+}
 /*segunda sección*/
 #second-block{
   background: linear-gradient(#76278F, #2B1E66);
@@ -234,8 +244,9 @@ bottom: 90px;
 
 /*pie de pagina*/
 footer{
-  height: 300px;
+  height: 450px;
   background-color: #37374c;
+  color: white;
 }
 
 .box-container{
@@ -289,7 +300,48 @@ footer{
 color: #FF00BF;
 text-decoration: underline;
 }
-
+/*cuarta columna:seccion de imágenes*/
 img[alt="image-png"]{
   width: 60%;
+  margin-bottom: 30px;
+}
+
+/*aplicando estilos a los iconos*/
+footer .icons{
+  /*outline: 1px solid red;*/
+  text-align: center;
+  color: white;
+
+}
+/*círculo que contiene a los íconos*/
+footer .icons .circle{
+  /*cada icono se posiciona en una sola línea*/
+  display: inline-block;
+  /*tamaño*/
+  width: 35px;
+  height: 35px;
+  /*borde circular*/
+  border-radius: 20px;
+  border: 1px solid white;
+  /*tamaño del icono*/
+  font-size: 20px;
+  /*margen entre cada círculo*/
+  margin-right: 40px;
+}
+/*iconos*/
+footer .icons .circle i{
+  /*margen para que el icono se centre en le círculo*/
+  margin-top: 8px;
+}
+/*linea divisora de los íconos*/
+footer hr{
+  /*se aplica margen para que la linea se reduzca*/
+  margin-top: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+/*texto copyright*/
+footer p{
+  text-align: center;
+  margin-top: 20px;
 }
